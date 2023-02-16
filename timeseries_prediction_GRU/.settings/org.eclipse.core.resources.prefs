@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//utils/data_processing.py=utf-8
+encoding//utils/localizer_log.py=utf-8
+encoding//utils/split_to_train_test_valid.py=utf-8
+encoding/main.py=utf-8

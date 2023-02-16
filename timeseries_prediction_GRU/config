@@ -1,0 +1,23 @@
+[default] 
+file = C:/DDrive/DataSets/Kaggle/Energy_Data/energydata_complete.csv
+df_column = 2
+
+[NN]
+num_layers = 3
+dropout = 0.2
+number_epoches = 5000
+hidden_dim = 100
+regularisation_parameter = 10E-5
+learning_rate = 1E-3
+slighding_window_num_pints = 144
+points_per_hour = 6
+trainingset_size_num_weeks = 2
+testset_size_num_weeks = 1
+validset_size_num_weeks = 1
+batch_size = 64
+model_type = GRU
+model_name = logs/model_state_dict_gru_2_4layers_100h.pt
+
+[restful]
+test_url=http://localhost:5000
+service_port=5000
